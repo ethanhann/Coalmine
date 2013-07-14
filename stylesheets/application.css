@@ -1,6 +1,4 @@
 @import url(../../../stylesheets/application.css);
-@import url(http://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext);
-@import url(http://fonts.googleapis.com/css?family=Stalinist+One&subset=latin,latin-ext,cyrillic);
 
 /*
 3D7178
@@ -12,6 +10,7 @@ DDDDDD
 body {
     color: #303030;
     background: #191919;
+	font-family: Verdana, sans-serif;
 }
 
 #top-menu {
@@ -46,7 +45,7 @@ body {
     margin-left: 6px;
 
     font-weight: bold;
-    font-family: Audiowide, Trebuchet MS, Georgia, "Times New Roman", serif;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
     margin-left: 20px;
     padding-left: 0;
     padding-right: 0;
@@ -136,7 +135,7 @@ body {
 h2, h3, h4, .wiki h1, .wiki h2, .wiki h3 {
     border-bottom: 0px;
     color:#2e2e2e;
-    font-family: Helvetica, "Times New Roman", serif;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
     transition: all 0.2s linear 0s;
     text-shadow: 0px 1px 0px #ebebeb;
 }
