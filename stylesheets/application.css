@@ -201,5 +201,21 @@ h4 {
 
 div.issue {
     background-color: #EEEEEE;
+}
 
+/* Wiki-specific
+***************************************************/
+.controller-wiki .contextual {
+    padding-right: 1em;
+}
+
+.wiki-page {
+    padding: 1em; 
+    border: solid #DDD 1px; 
+    border-radius:4px; 
+    margin-bottom: 1em;
+}
+
+.wiki-page h1, .wiki-page h2, .wiki-page h3, .wiki-page h4 {
+    border-bottom: solid #DDD 1px;	
 }
