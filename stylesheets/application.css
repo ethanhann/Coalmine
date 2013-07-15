@@ -188,6 +188,16 @@ h4 {
     border-radius: 4px;
 }
 
+table.list tbody tr:hover {
+    background-color: #D9EDF7;
+    color: #3A87AD;
+}
+
+/* Issue(s)
+***************************************************/
+div.issue {
+    background-color: #EEEEEE;
+}
 
 .issues tr[class*='priority-high'] {
     border-radius: 4px 4px 4px 4px;
@@ -203,28 +213,19 @@ h4 {
     color: #A743A7 !important;
 }
 
-div.issue {
-    background-color: #EEEEEE;
-}
-
-table.list tbody tr:hover {
-    background-color: #D9EDF7;
-    color: #3A87AD;
-}
-
-/* Wiki-specific
+/* Wiki
 ***************************************************/
 .controller-wiki .contextual {
     padding-right: 1em;
 }
 
-.wiki-page {
+.wiki.wiki-page {
     padding: 1em; 
     border: solid #DDD 1px; 
     border-radius:4px; 
     margin-bottom: 1em;
 }
 
-.wiki-page h1, .wiki-page h2, .wiki-page h3, .wiki-page h4 {
+.wiki.wiki-page h1, .wiki-page h2, .wiki-page h3, .wiki-page h4 {
     border-bottom: solid #DDD 1px;	
 }
