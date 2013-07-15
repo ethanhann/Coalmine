@@ -188,21 +188,19 @@ h4 {
     border-radius: 4px;
 }
 
-.issues .priority-high2, .issues .priority-highest {
+
+.issues tr[class*='priority-high'] {
     border-radius: 4px 4px 4px 4px;
     margin-bottom: 20px;
     padding: 8px 35px 8px 14px;
-}
 
-.issues .priority-high2 {
     background-color: #F2DEDE;
     color: #B94A48;
 }
 
-
-.issues .priority-high3 {
-    background-color: #FCF8E3;
-    color: #C09853;
+.issues .priority-highest {
+    background-color: #F2DEF2 !important;
+    color: #A743A7 !important;
 }
 
 div.issue {
