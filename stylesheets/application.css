@@ -209,6 +209,11 @@ div.issue {
     background-color: #EEEEEE;
 }
 
+table.list tbody tr:hover {
+    background-color: #D9EDF7;
+    color: #3A87AD;
+}
+
 /* Wiki-specific
 ***************************************************/
 .controller-wiki .contextual {
